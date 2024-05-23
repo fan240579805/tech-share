@@ -7,7 +7,7 @@ export default defineConfig(({ command }) => {
   const framework = isBuild ? process.env.FRAMEWORK : 'vue'
 
   if (isBuild) {
-    console.log(`Building for ${framework}...`)
+    console.log(`Building for ${framework} ========================================>`)
   }
 
   return {
